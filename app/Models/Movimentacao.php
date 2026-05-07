@@ -12,7 +12,7 @@ class Movimentacao extends Model
     protected $fillable = [
         'quantidade',
         'data_movimentacao',
-        'tipo_movimentacao',
+        'tipo',
         'produto_id',
         'user_id',
     ];

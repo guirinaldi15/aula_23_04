@@ -25,21 +25,21 @@ class DatabaseSeeder extends Seeder
       //Produtos
       Produto::create([
         'nome'=>'Martelo',
-        'valr'=>50.90,
+        'valor'=>50.90,
         'qtd_estoque'=>0,
         'qtd_minima'=>5,
       ]);
 
       Produto::create([
         'nome'=>'Alicate',
-        'valr'=>30,
+        'valor'=>30,
         'qtd_estoque'=>0,
         'qtd_minima'=>3,
       ]);
 
       Produto::create([
         'nome'=>'Furadeira',
-        'valr'=>99.99,
+        'valor'=>99.99,
         'qtd_estoque'=>0,
         'qtd_minima'=>8,
       ]);
