@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Auth\Login;
 use App\Livewire\Movimentacao\MovimentacaoCreate;
 use App\Livewire\Movimentacao\MovimentacaoIndex;
 use App\Livewire\Produto\ProdutoCreate;
@@ -17,3 +18,5 @@ Route::get('produto', ProdutoIndex::class)->name('produto.index');
 
 Route::get('movimentacao/create', MovimentacaoCreate::class)->name('movimentacao.create');
 Route::get('movimentacao/index', MovimentacaoIndex::class)->name('movimentacao.index');
+
+Route::get('login', Login::class)->name('login');
